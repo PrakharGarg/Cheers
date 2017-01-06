@@ -15,6 +15,7 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require jquery.min
+//= require jquery.lettering.min
 //= require skel.min
 //= require skel-viewport.min
 //= require util
