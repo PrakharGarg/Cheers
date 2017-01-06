@@ -14,9 +14,11 @@ $shadow: #533d4a;
 	transform: translate(-50%, -50%);
   top: 10%;
   left: 50%;
-  display: block;
-  position: absolute;
+  display: inline-block;
+  position: relative;
   max-width: 225px;
+	margin-top: 2%;
+	// margin-bottom: 30px;
 	
 	h1{
 	  color: #fff;
@@ -25,6 +27,7 @@ $shadow: #533d4a;
 	  margin: 0;
 	  line-height: 55px;
 	  letter-spacing: 4px;
+		position: sticky;
 	}
 	
 	span {
@@ -810,7 +813,6 @@ i.fa.fa-heart {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		color: #777777;
-		// margin-top: 4%;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1113,6 +1115,9 @@ i.fa.fa-heart {
 		}
 
 /* Nav */
+#nav {
+	margin-top: -3%;
+}
 
 	#nav a {
 		position: relative;
