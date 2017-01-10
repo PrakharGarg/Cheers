@@ -69,6 +69,12 @@ i.fa.fa-heart {
 
 button {
 	background-color: white;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+button:hover {
+    background-color: #eccb3f; /* Green */
+    color: white;
 }
 
 .btn {
