@@ -66,6 +66,13 @@ $(document).ready(function(){
     $('.spontaneous').addClass('active');
   });
   
+  $( ".fa-chevron-circle-left" ).on( "click", function() {
+    $(this).parent().removeClass('active');
+    $(this).parent().addClass('hide');
+    $('.main-beers').removeClass('hide');
+    $('.main-beers').addClass('active');
+  });
+  
 });
 
 
