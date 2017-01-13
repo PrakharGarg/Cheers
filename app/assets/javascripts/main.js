@@ -3,7 +3,17 @@ $(document).ready(function() {
 });
 
 
+$(document).ready(function(){
+  $( ".main" ).on( "click", function() {
+    $(this).parent().removeClass('active');
+    $(this).parent().addClass('hide');
+  });
+});
 
+$(document).ready(function(){
+  $( ".test-larger" ).on( "click", function() {
+  });
+});
 
 
 $(document).ready(function() {
