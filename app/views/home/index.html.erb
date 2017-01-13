@@ -17,7 +17,7 @@
 
         <!-- Me -->
           <article id="me" class="panel">
-            <div class="col-md-4 active" style = "margin-top:3%;line-height:70px;">
+            <div class="main active col-md-4" style = "margin-top:3%;line-height:70px;">
               <button type="button" class="btn btn-outline-primary">Larger</button>
               <button type="button" class="btn btn-outline-primary">Dark Lager</button>
               <button type="button" class="btn btn-outline-primary">German Bock</button>
@@ -31,23 +31,86 @@
               <button type="button" class="btn btn-outline-primary">Spontanous Fermenting</button>  
             </div>
             
-            <!-- <div class="col-md-4 active" style = "margin-top:3%;line-height:70px;">
-              <button type="button" class="btn btn-outline-primary">Larger</button>
-              <button type="button" class="btn btn-outline-primary">Dark Lager</button>
-              <button type="button" class="btn btn-outline-primary">German Bock</button>
-              <button type="button" class="btn btn-outline-primary">Ale</button>
-              <button type="button" class="btn btn-outline-primary">Pale Ale</button>
-              <button type="button" class="btn btn-outline-primary">IPA</button>
-              <button type="button" class="btn btn-outline-primary">Porter</button>
-              <button type="button" class="btn btn-outline-primary">Stout</button>  
-              <button type="button" class="btn btn-outline-primary">Belgian Style</button>  
-              <button type="button" class="btn btn-outline-primary">Wheat Beer</button>  
-              <button type="button" class="btn btn-outline-primary">Spontanous Fermenting</button>  
-            </div> -->
+            <div class="larger hide col-md-4" style = "margin-top:3%;line-height:70px;">
+              <button type="button" class="btn btn-outline-primary">American Larger</button>
+              <button type="button" class="btn btn-outline-primary">German Helles</button>
+              <button type="button" class="btn btn-outline-primary">German Pilsner</button>
+              <button type="button" class="btn btn-outline-primary">Czech or Bohemian Pilsner</button> 
+            </div>
             
+            <div class="dark-larger hide col-md-4" style = "margin-top:3%;line-height:70px;">
+              <button type="button" class="btn btn-outline-primary">Amber American Larger</button>
+              <button type="button" class="btn btn-outline-primary">Oktoberfest</button>
+              <button type="button" class="btn btn-outline-primary">German Schwarzbier</button>
+              <button type="button" class="btn btn-outline-primary">Vienna Larger</button> 
+            </div>
+            
+            
+            <div class="german-bock hide col-md-4" style = "margin-top:3%;line-height:70px;">
+              <button type="button" class="btn btn-outline-primary">Traditional Bock</button>
+              <button type="button" class="btn btn-outline-primary">Doppelbock</button>
+              <button type="button" class="btn btn-outline-primary">Weizenbock</button>
+              <button type="button" class="btn btn-outline-primary">Maibock</button> 
+            </div>
+            
+            <div class="ale hide col-md-4" style = "margin-top:3%;line-height:70px;">
+              <button type="button" class="btn btn-outline-primary">American Brown Ale</button>
+              <button type="button" class="btn btn-outline-primary">English Brown Ale</button>
+            </div>
+            
+            <div class="pale-ale hide col-md-4" style = "margin-top:3%;line-height:70px;">
+              <button type="button" class="btn btn-outline-primary">American Amber Ale</button>
+              <button type="button" class="btn btn-outline-primary">American Pale Ale</button>
+              <button type="button" class="btn btn-outline-primary">Blonde Ale</button>
+              <button type="button" class="btn btn-outline-primary">English Bitter</button> 
+              <button type="button" class="btn btn-outline-primary">English Pale Ale</button> 
+            </div>
+            
+            <div class="india-pale-ale hide col-md-4" style = "margin-top:3%;line-height:70px;">
+              <button type="button" class="btn btn-outline-primary">American IPA</button>
+              <button type="button" class="btn btn-outline-primary">Imperial or Double IPA</button>
+              <button type="button" class="btn btn-outline-primary">English IPA</button> 
+            </div>
+            
+            <div class="porter hide col-md-4" style = "margin-top:3%;line-height:70px;">
+              <button type="button" class="btn btn-outline-primary">American Imperial Porter</button>
+              <button type="button" class="btn btn-outline-primary">English Brown Porter</button>
+              <button type="button" class="btn btn-outline-primary">Robust Porter</button>
+            </div>
+            
+            <div class="stout hide col-md-4" style = "margin-top:3%;line-height:70px;">
+              <button type="button" class="btn btn-outline-primary">American Stout</button>
+              <button type="button" class="btn btn-outline-primary">American Imperial Stout</button>
+              <button type="button" class="btn btn-outline-primary">Oatmeal Stout</button>
+              <button type="button" class="btn btn-outline-primary">Milk Stout</button> 
+              <button type="button" class="btn btn-outline-primary">Irish Dry Stout</button> 
+            </div>
+            
+            <div class="belgian hide col-md-4" style = "margin-top:3%;line-height:70px;">
+              <button type="button" class="btn btn-outline-primary">Belgian Pale Ale</button>
+              <button type="button" class="btn btn-outline-primary">Belgian Dubbel</button>
+              <button type="button" class="btn btn-outline-primary">Belgian Tripel</button>
+              <button type="button" class="btn btn-outline-primary">Belgian Quadrupel</button> 
+              <button type="button" class="btn btn-outline-primary">Belgian Strong Dark Ale</button> 
+              <button type="button" class="btn btn-outline-primary">Belgian Saison</button> 
+            </div>
+            
+            <div class="wheat hide col-md-4" style = "margin-top:3%;line-height:70px;">
+              <button type="button" class="btn btn-outline-primary">American Pale Wheat</button>
+              <button type="button" class="btn btn-outline-primary">Belgian Witbier</button>
+              <button type="button" class="btn btn-outline-primary">Berliner Weisse</button>
+              <button type="button" class="btn btn-outline-primary">Dunkelweizen</button> 
+              <button type="button" class="btn btn-outline-primary">Hefeweizen</button> 
+            </div>
+            
+            <div class="spontaneous hide col-md-4" style = "margin-top:3%;line-height:70px;">
+              <button type="button" class="btn btn-outline-primary">American Sour</button>
+              <button type="button" class="btn btn-outline-primary">Belgian Fruit Lambic</button>
+              <button type="button" class="btn btn-outline-primary">Flanders Red Ale</button>
+              <button type="button" class="btn btn-outline-primary">Belgian Gueuze</button> 
+            </div>
+      
             <div class = "col-md-8 pic">
-              <a href="#work" class="jumplink pic">
-              </a>
             </div>
           </article>
 
