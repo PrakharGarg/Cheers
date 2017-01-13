@@ -11,8 +11,61 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $( ".test-larger" ).on( "click", function() {
+  $( ".main-larger" ).on( "click", function() {
+    $('.larger').removeClass('hide');
+    $('.larger').addClass('active');
   });
+  
+  $( ".main-dark" ).on( "click", function() {
+    $('.dark-larger').removeClass('hide');
+    $('.dark-larger').addClass('active');
+  });
+  
+  $( ".main-bock" ).on( "click", function() {
+    $('.german-bock').removeClass('hide');
+    $('.german-bock').addClass('active');
+  });
+  
+  $( ".main-ale" ).on( "click", function() {
+    $('.ale').removeClass('hide');
+    $('.ale').addClass('active');
+  });
+  
+  $( ".main-pale-ale" ).on( "click", function() {
+    $('.pale-ale').removeClass('hide');
+    $('.pale-ale').addClass('active');
+  });
+  
+  $( ".main-ipa" ).on( "click", function() {
+    $('.india-pale-ale').removeClass('hide');
+    $('.india-pale-ale').addClass('active');
+  });
+  
+  $( ".main-porter" ).on( "click", function() {
+    $('.porter').removeClass('hide');
+    $('.porter').addClass('active');
+  });
+  
+  $( ".main-stout" ).on( "click", function() {
+    $('.stout').removeClass('hide');
+    $('.stout').addClass('active');
+  });
+  
+  $( ".main-belgium" ).on( "click", function() {
+    $('.belgium').removeClass('hide');
+    $('.belgium').addClass('active');
+  });
+  
+  $( ".main-wheat" ).on( "click", function() {
+    $('.wheat').removeClass('hide');
+    $('.wheat').addClass('active');
+  });
+  
+  $( ".main-spontaneous" ).on( "click", function() {
+    $('.spontaneous').removeClass('hide');
+    $('.spontaneous').addClass('active');
+  });
+  
 });
 
 
