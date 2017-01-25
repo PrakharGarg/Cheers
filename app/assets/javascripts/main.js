@@ -2,7 +2,6 @@ $(document).ready(function() {
   $(".title").lettering();
 });
 
-
 $(document).ready(function(){
   $( ".main" ).on( "click", function() {
     $(this).parent().removeClass('active');
