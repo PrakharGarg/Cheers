@@ -73,7 +73,7 @@ section {
     width: 10px;
     background-color: rgba(255, 206, 84, 0.5);
     
-    animation: flow 5s ease infinite;
+    animation: flow 5s ease;
 }
 
 @keyframes flow {
@@ -120,7 +120,7 @@ section {
     border-width: 50px 10px 0 10px;
     border-color: black transparent transparent transparent;
     
-    animation: handle 5s ease infinite;    
+    animation: handle 5s ease;    
 }
 #pipe-handle:before {
     position: absolute;
@@ -160,11 +160,11 @@ section {
     height: 100px;
     width: 70px;
     bottom: 0;
-		left: 100px;
+		left: 90px;
     background-color: rgba(255, 255, 255, 0.0);
     border-radius: 5px;
     
-    animation: slide 5s ease forwards infinite;
+    // animation: slide 5s ease forwards infinite;
 }
 
 @keyframes slide {
@@ -199,20 +199,20 @@ section {
     background-color: rgba(255, 206, 84, 0.8); /* #FFCE54*/
     border-radius: 0 0 5px 5px;
     border-top: solid 0px rgba(255, 206, 84, 0.8);
+		height:80px;
     
-    animation: fillup 5s ease infinite;
+    animation: fillup 5s ease;
 }
 .beer:after {
     position: absolute;
     display: block;
     content: " ";
-    /*height: 20px;*/
+    height: 20px;
     width: 100%;
     background-color: white;
-    /*top: -20px;*/
+    top: -10px;
     border-radius: 5px 5px 0 0;
-    
-    animation: fillupfoam 5s linear infinite, wave 0.5s alternate infinite;
+    animation: fillupfoam 5s linear, wave 0.5s alternate infinite;
 }
 
 .handle {
