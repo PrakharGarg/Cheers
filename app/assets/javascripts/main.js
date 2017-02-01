@@ -22,10 +22,6 @@ $(document).ready(function(){
   $( ".main-dark" ).on( "click", function() {
     $('.dark-larger').removeClass('hide');
     $('.dark-larger').addClass('active');
-    document.getElementById('beer').style.backgroundColor = '#8C2F12';
-    $(document.getElementById('pipe')).removeClass();
-    $(document.getElementById('pipe')).toggleClass('dark-larger');
-    restart_animation();
   });
   
   $( ".schwarzbier" ).on( "click", function() {
@@ -39,6 +35,20 @@ $(document).ready(function(){
     document.getElementById('beer').style.backgroundColor = '#8C2F12';
     $(document.getElementById('pipe')).removeClass();
     $(document.getElementById('pipe')).toggleClass('normal-dark-larger');
+    restart_animation();
+  });
+  
+  $( ".traditional-bock" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#8C2F12';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('traditional-bock');
+    restart_animation();
+  });
+  
+  $( ".maibock-bock" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#D2B74B';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('maibock-bock');
     restart_animation();
   });
   

@@ -255,6 +255,28 @@ $shadow: #533d4a;
 	animation: flow 5s ease;
 }
 
+#pipe.traditional-bock:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#8C2F12;
+	
+	animation: flow 5s ease;
+}
+
+#pipe.maibock-bock:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#D2B74B;
+	
+	animation: flow 5s ease;
+}
+
+
+
 
 
 @keyframes flow {
