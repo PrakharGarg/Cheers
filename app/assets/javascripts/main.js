@@ -13,9 +13,12 @@ $(document).ready(function(){
   $( ".main-larger" ).on( "click", function() {
     $('.larger').removeClass('hide');
     $('.larger').addClass('active');
+  });
+  
+  $( ".larger-btn" ).on( "click", function() {
     document.getElementById('beer').style.backgroundColor = '#FFCE1A';
     $(document.getElementById('pipe')).removeClass();
-    $(document.getElementById('pipe')).toggleClass('larger');
+    $(document.getElementById('pipe')).toggleClass('larger-btn');
     restart_animation();
   });
   
@@ -52,7 +55,6 @@ $(document).ready(function(){
     restart_animation();
   });
   
-  
   $( ".main-bock" ).on( "click", function() {
     $('.german-bock').removeClass('hide');
     $('.german-bock').addClass('active');
@@ -63,9 +65,30 @@ $(document).ready(function(){
     $('.ale').addClass('active');
   });
   
+  $( ".brown-ale" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#632D18';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('brown-ale');
+    restart_animation();
+  });
+  
   $( ".main-pale-ale" ).on( "click", function() {
     $('.pale-ale').removeClass('hide');
     $('.pale-ale').addClass('active');
+  });
+  
+  $( ".normal-pale-ale" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#EA9819';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('normal-pale-ale');
+    restart_animation();
+  });
+  
+  $( ".amber-pale-ale" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#8C2F12';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('amber-pale-ale');
+    restart_animation();
   });
   
   $( ".main-ipa" ).on( "click", function() {
@@ -73,9 +96,23 @@ $(document).ready(function(){
     $('.india-pale-ale').addClass('active');
   });
   
+  $( ".ipa" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#EBC63C';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('ipa');
+    restart_animation();
+  });
+  
   $( ".main-porter" ).on( "click", function() {
     $('.porter').removeClass('hide');
     $('.porter').addClass('active');
+  });
+  
+  $( ".port" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#220000';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('port');
+    restart_animation();
   });
   
   $( ".main-stout" ).on( "click", function() {

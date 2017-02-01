@@ -215,7 +215,7 @@ $shadow: #533d4a;
     
     animation: flow 5s ease;
 }
-#pipe.larger:after {
+#pipe.larger-btn:after {
 	position: absolute;
 	display: block;
 	content: " ";
@@ -271,6 +271,56 @@ $shadow: #533d4a;
 	content: " ";
 	width: 10px;
 	background-color:#D2B74B;
+	
+	animation: flow 5s ease;
+}
+
+#pipe.brown-ale:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#632D18;
+	
+	animation: flow 5s ease;
+}
+
+#pipe.normal-pale-ale:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#EA9819;
+	
+	animation: flow 5s ease;
+}
+
+#pipe.amber-pale-ale:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#8C2F12;
+	
+	animation: flow 5s ease;
+}
+
+#pipe.ipa:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#EBC63C;
+	
+	animation: flow 5s ease;
+}
+
+#pipe.port:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#220000;
 	
 	animation: flow 5s ease;
 }
