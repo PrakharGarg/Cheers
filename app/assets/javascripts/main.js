@@ -118,9 +118,13 @@ $(document).ready(function(){
   $( ".main-stout" ).on( "click", function() {
     $('.stout').removeClass('hide');
     $('.stout').addClass('active');
+  });
+  
+  $( ".stouts" ).on( "click", function() {
     document.getElementById('beer').style.backgroundColor = '#140D1C';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('stouts');
     restart_animation();
-    
   });
   
   $( ".main-belgium" ).on( "click", function() {
@@ -128,14 +132,70 @@ $(document).ready(function(){
     $('.belgium').addClass('active');
   });
   
+  $( ".belg-pale" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#D1B65E';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('belg-pale');
+    restart_animation();
+  });
+  
+  $( ".belg-dubb" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#E9AA19';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('belg-dubb');
+    restart_animation();
+  });
+  
+  $( ".belg-quad" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#C85721';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('belg-quad');
+    restart_animation();
+  });
+  
   $( ".main-wheat" ).on( "click", function() {
     $('.wheat').removeClass('hide');
     $('.wheat').addClass('active');
   });
   
+  $( ".amer-wheat" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#C7AA32';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('amer-wheat');
+    restart_animation();
+  });
+  
+  $( ".wit" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#D6CA9C';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('wit');
+    restart_animation();
+  });
+  
+  $( ".hefe" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#FFBE15';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('hefe');
+    restart_animation();
+  });
+  
   $( ".main-spontaneous" ).on( "click", function() {
     $('.spontaneous').removeClass('hide');
     $('.spontaneous').addClass('active');
+  });
+  
+  $( ".amer-sour" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#FFBE15';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('amer-sour');
+    restart_animation();
+  });
+  
+  $( ".red-beer" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#B53455';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('red-beer');
+    restart_animation();
   });
   
   $( ".fa-chevron-circle-left" ).on( "click", function() {

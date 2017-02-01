@@ -325,6 +325,96 @@ $shadow: #533d4a;
 	animation: flow 5s ease;
 }
 
+#pipe.stouts:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#140D1C;
+	
+	animation: flow 5s ease;
+}
+
+#pipe.belg-pale:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#D1B65E;
+	
+	animation: flow 5s ease;
+}
+
+#pipe.belg-dubb:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#E9AA19;
+	
+	animation: flow 5s ease;
+}
+
+#pipe.belg-quad:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#C85721;
+	
+	animation: flow 5s ease;
+}
+
+#pipe.amer-wheat:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#C7AA32;
+	
+	animation: flow 5s ease;
+}
+
+#pipe.wit:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#D6CA9C;
+	
+	animation: flow 5s ease;
+}
+
+#pipe.hefe:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#FFBE15;
+	
+	animation: flow 5s ease;
+}
+
+#pipe.amer-sour:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#FFBE15;
+	
+	animation: flow 5s ease;
+}
+
+#pipe.red-beer:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#B53455;
+	
+	animation: flow 5s ease;
+}
+
 
 
 
