@@ -240,7 +240,17 @@ $shadow: #533d4a;
 	display: block;
 	content: " ";
 	width: 10px;
-	background-color:#13100C;
+	background-color:#201B30;
+	
+	animation: flow 5s ease;
+}
+
+#pipe.normal-dark-larger:after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	background-color:#8C2F12;
 	
 	animation: flow 5s ease;
 }

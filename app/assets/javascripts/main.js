@@ -13,15 +13,35 @@ $(document).ready(function(){
   $( ".main-larger" ).on( "click", function() {
     $('.larger').removeClass('hide');
     $('.larger').addClass('active');
+    document.getElementById('beer').style.backgroundColor = '#FFCE1A';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('larger');
+    restart_animation();
   });
   
   $( ".main-dark" ).on( "click", function() {
     $('.dark-larger').removeClass('hide');
     $('.dark-larger').addClass('active');
     document.getElementById('beer').style.backgroundColor = '#8C2F12';
+    $(document.getElementById('pipe')).removeClass();
     $(document.getElementById('pipe')).toggleClass('dark-larger');
     restart_animation();
   });
+  
+  $( ".schwarzbier" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#201B30';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('schwarzbier');
+    restart_animation();
+  });
+  
+  $( ".normal-dark-larger" ).on( "click", function() {
+    document.getElementById('beer').style.backgroundColor = '#8C2F12';
+    $(document.getElementById('pipe')).removeClass();
+    $(document.getElementById('pipe')).toggleClass('normal-dark-larger');
+    restart_animation();
+  });
+  
   
   $( ".main-bock" ).on( "click", function() {
     $('.german-bock').removeClass('hide');
