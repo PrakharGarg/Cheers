@@ -28,6 +28,8 @@ gem 'autoprefixer-rails'
 
 gem 'font-awesome-sass'
 
+gem 'brewerydb'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
