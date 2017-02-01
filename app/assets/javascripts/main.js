@@ -18,6 +18,9 @@ $(document).ready(function(){
   $( ".main-dark" ).on( "click", function() {
     $('.dark-larger').removeClass('hide');
     $('.dark-larger').addClass('active');
+    document.getElementById('beer').style.backgroundColor = '#8C2F12';
+    $(document.getElementById('pipe')).toggleClass('dark-larger');
+    restart_animation();
   });
   
   $( ".main-bock" ).on( "click", function() {
@@ -48,6 +51,9 @@ $(document).ready(function(){
   $( ".main-stout" ).on( "click", function() {
     $('.stout').removeClass('hide');
     $('.stout').addClass('active');
+    document.getElementById('beer').style.backgroundColor = '#140D1C';
+    restart_animation();
+    
   });
   
   $( ".main-belgium" ).on( "click", function() {
@@ -71,6 +77,18 @@ $(document).ready(function(){
     $('.main-beers').removeClass('hide');
     $('.main-beers').addClass('active');
   });
+  
+  function restart_animation(){
+    var elm = document.getElementById('beer');
+    var elm2 = document.getElementById('pipe-handle');
+    var elm3 = document.getElementById('pipe')
+    var newone = elm.cloneNode(true);
+    var newone2 = elm2.cloneNode(true);
+    var newone3 = elm3.cloneNode(true);
+    elm2.parentNode.replaceChild(newone2,elm2);
+    elm3.parentNode.replaceChild(newone3,elm3);
+    elm.parentNode.replaceChild(newone,elm);
+  }
   
 });
 
