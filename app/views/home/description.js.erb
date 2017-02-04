@@ -1,0 +1,11 @@
+var html = "<p id = 'description' style = 'font-size: 13px; margin-top: -45%; line-height:1.2'> <%= @description %></p>";
+var intro = $('#intro');
+var description = $('#description');
+if(description.hasClass('active') == false) {
+  $('#description').toggleClass('active');
+};
+if(intro.hasClass('active')) {
+  $('#intro').toggleClass('active');
+  $('#intro').toggleClass('hidden');
+};
+$('#description').replaceWith(html);
