@@ -215,7 +215,7 @@ $shadow: #533d4a;
     
     animation: flow 5s ease;
 }
-#pipe.larger-btn:after {
+#pipe.lager-btn:after {
 	position: absolute;
 	display: block;
 	content: " ";
@@ -225,7 +225,7 @@ $shadow: #533d4a;
 	animation: flow 5s ease;
 }
 
-#pipe.dark-larger:after {
+#pipe.dark-lager:after {
 	position: absolute;
 	display: block;
 	content: " ";
@@ -245,7 +245,7 @@ $shadow: #533d4a;
 	animation: flow 5s ease;
 }
 
-#pipe.normal-dark-larger:after {
+#pipe.normal-dark-lager:after {
 	position: absolute;
 	display: block;
 	content: " ";
@@ -413,6 +413,7 @@ $shadow: #533d4a;
 	background-color:#B53455;
 	
 	animation: flow 5s ease;
+	
 }
 
 

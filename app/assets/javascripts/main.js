@@ -10,21 +10,21 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $( ".main-larger" ).on( "click", function() {
-    $('.larger').removeClass('hide');
-    $('.larger').addClass('active');
+  $( ".main-lager" ).on( "click", function() {
+    $('.lager').removeClass('hide');
+    $('.lager').addClass('active');
   });
   
-  $( ".larger-btn" ).on( "click", function() {
+  $( ".lager-btn" ).on( "click", function() {
     document.getElementById('beer').style.backgroundColor = '#FFCE1A';
     $(document.getElementById('pipe')).removeClass();
-    $(document.getElementById('pipe')).toggleClass('larger-btn');
+    $(document.getElementById('pipe')).toggleClass('lager-btn');
     restart_animation();
   });
   
   $( ".main-dark" ).on( "click", function() {
-    $('.dark-larger').removeClass('hide');
-    $('.dark-larger').addClass('active');
+    $('.dark-lager').removeClass('hide');
+    $('.dark-lager').addClass('active');
   });
   
   $( ".schwarzbier" ).on( "click", function() {
@@ -34,10 +34,10 @@ $(document).ready(function(){
     restart_animation();
   });
   
-  $( ".normal-dark-larger" ).on( "click", function() {
+  $( ".normal-dark-lager" ).on( "click", function() {
     document.getElementById('beer').style.backgroundColor = '#8C2F12';
     $(document.getElementById('pipe')).removeClass();
-    $(document.getElementById('pipe')).toggleClass('normal-dark-larger');
+    $(document.getElementById('pipe')).toggleClass('normal-dark-lager');
     restart_animation();
   });
   
