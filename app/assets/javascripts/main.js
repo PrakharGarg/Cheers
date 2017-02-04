@@ -203,6 +203,10 @@ $(document).ready(function(){
     $(this).parent().addClass('hide');
     $('.main-beers').removeClass('hide');
     $('.main-beers').addClass('active');
+    $('#description').toggleClass('active')
+    $('#description').toggleClass('hidden')
+    $('#intro').toggleClass('hidden')
+    $('#intro').toggleClass('active')
   });
   
   function restart_animation(){

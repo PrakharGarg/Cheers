@@ -20,4 +20,5 @@
 //= require skel-viewport.min
 //= require util
 //= require main
+//= ajax
 //= require_tree .
