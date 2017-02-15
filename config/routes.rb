@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   root 'home#index'
   
-  get 'gome/styles'
+  get 'home/styles'
   
   get 'home/description'
   
