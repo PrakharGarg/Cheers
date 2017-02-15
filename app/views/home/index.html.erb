@@ -8,7 +8,6 @@
     <!-- Nav -->
       <div id="nav">
         <a href="#me" class="icon fa-book active"><span>Wiki</span></a>
-        <a href="#work" class="icon fa-beer"><span>Beers</span></a>
       </div>
 
     <!-- Main -->
@@ -169,48 +168,6 @@
                       </div>
                   </div>
             </div>
-          </article>
-
-        <!-- Work -->
-          <article id="work" class="panel">
-              <%= form_tag("/search", method: "get") do %>
-                <%= text_field_tag :q, nil, class: "col-md-6", placeholder: "THIS DOES NOT WORK YET" %>
-                <%= submit_tag "Search", class: "col-md-2", style: "max-width: 100px;" %>
-              <% end %>
-              <br />
-            <p>
-              Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-              luctus elit eget interdum.
-            </p>
-            <section>
-              <div class="row">
-                <div class="4u 12u$(mobile)">
-                </div>
-                <div class="4u 12u$(mobile)">
-                </div>
-                <div class="4u$ 12u$(mobile)">
-                </div>
-                <div class="4u 12u$(mobile)">
-                </div>
-                <div class="4u 12u$(mobile)">
-                </div>
-                <div class="4u$ 12u$(mobile)">
-                </div>
-                <div class="4u 12u$(mobile)">
-                </div>
-                <div class="4u 12u$(mobile)">
-                </div>
-                <div class="4u$ 12u$(mobile)">
-                </div>
-                <div class="4u 12u$(mobile)">
-                </div>
-                <div class="4u 12u$(mobile)">
-                </div>
-                <div class="4u$ 12u$(mobile)">
-                </div>
-              </div>
-            </section>
           </article>
       </div>
 
